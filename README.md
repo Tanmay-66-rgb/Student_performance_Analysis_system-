@@ -24,12 +24,7 @@ Identify students who need additional academic support.
 Export the generated reports for further use.
 
 
-## Run
-```bash
-pip install -r requirements.txt
-python -m streamlit run app.py
-```
-Open http://localhost:8501. Nothing is shown until a CSV/Excel file is uploaded in the sidebar (needs a student ID/name column and numeric subject columns, marks 0–100). A sample `students.csv` is included to try it.
+## 👀Check out : https://student-performance-analytics-tpb.streamlit.app/
 
 ## Rules
 - Pass rate: share of students ≥ threshold in **every** subject.
